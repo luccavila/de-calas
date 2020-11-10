@@ -1,0 +1,38 @@
+.containerGaleria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    padding: 25px;
+    grid-gap: 25px;
+    width: 90%;
+    margin: auto;
+    .itemGaleria {
+        position: relative;
+        .imgGaleria {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .titulosGaleria {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.47692580450148814) 100%, rgba(0, 0, 0, 1) 100%);
+            width: 100%;
+            margin: 0;
+            color: #ee9ca7;
+            font-weight: 500;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+        }
+        .itemGaleria:nth-child(7) {
+            grid-row-start: span 2;
+        }
+        .itemGaleria:nth-child(7):hover {
+            transform: scale(0.95);
+        }
+    }
+    .itemGaleria:hover {
+        transform: scale(1.1);
+    }
+}

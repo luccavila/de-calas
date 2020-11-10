@@ -1,0 +1,28 @@
+.titulos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.subtitulos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.letraChica {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.link {
+    list-style: none;
+    color: #454545;
+}
+
+.link:hover {
+    color: #e87ea1;
+}
+
+$font-sizes: ("small": 1rem, "normal": 1.2rem, "big": 1.4rem, "titles": 1.6rem);
